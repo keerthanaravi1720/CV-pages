@@ -1,0 +1,199 @@
+.bg-color{
+    /* background-color: rgb(254, 246, 236); */
+    /* display: flex; */
+    height: 100vh;
+    display: flex;
+    justify-content: space-between; /* Add this to create space between left and right sections */
+    align-items: flex-start; /* Align items at the top */
+    width: 100%;
+}
+.name{
+  
+    /* width: 100%; */
+    /* height: 20%; */
+    margin-top: 25px;
+   
+}
+
+
+.body{
+  overflow-x: hidden;
+}
+
+.full-name {
+  background-color: rgb(192, 161, 146);
+  font-size: 45px;
+  font-weight: lighter;
+  margin-top: 10px;
+  height: 100px; /* Set height to auto to allow content to expand vertically */
+  overflow: hidden; /* Hide overflowing content */
+  padding: 6px;
+   /* Add padding to create space for sub-name */
+}
+
+.sub-name {
+  font-size: 16px;
+  margin-top: -50px; 
+  margin-left: 20px;/* Add a margin to separate it from full-name */
+  
+}
+
+.s {
+  margin-left: 20px;
+  margin-top: -9px;
+}
+
+
+
+/* cards */
+.left-cards {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 40%;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    /* border-right-color: black; */
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* width: 40%; */
+    margin-top: 50px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   
+  border-bottom: none;
+    /* border-right: black; */
+  }
+  .cont{
+    margin-left: 30px;
+  }
+
+  .skills{
+    font-size: 20px;
+    text-align: center;
+    background-color:  rgb(192, 161, 146);;
+  }
+  
+  .skills-text::before {
+    content: "•";
+    margin-right: 5px;
+    text-align: justify;
+  }
+
+
+  .per-text::before{
+    content: "•";
+    margin-right: 5px;
+    text-align: justify;
+    /* margin-left: 10px; */
+  }
+  .personal{
+    font-size: 20px;
+    text-align: center;
+    background-color:  rgb(192, 161, 146);;
+  }
+
+  .certi{
+    font-size: 20px;
+    text-align: center;
+    background-color:  rgb(192, 161, 146);;
+  }
+
+  .contact{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(192, 161, 146);
+  }
+  
+  .right-cards{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 70%;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+   border-top: none;
+  }
+  
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between; /* Add this to create space between left and right sections */
+    align-items: flex-start; /* Align items at the top */
+    width: 100%; /* Set the width to 100% */
+  }
+
+  .academic{
+    font-size: 20px;
+    text-align: center;
+    background-color:  rgb(192, 161, 146);;
+  }
+
+  .a-text{
+   
+   margin-left: 20px;
+    text-align: justify;
+  }
+
+  .a-text1{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: justify;
+  }
+
+  .a-text2{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: justify;
+  }
+
+
+  .a-dot::before{
+    content: "•";
+    margin-right: 5px;
+    text-align: justify;
+  }
+
+  .prjt{
+    font-size: 20px;
+    text-align: center;
+    background-color:  rgb(192, 161, 146);;
+  }
+
+  .prjt-text::before{
+    content: "•";
+    margin-left: 25px;
+    text-align: justify;
+    margin-right: 5px;
+  }
+
+  .exp{
+    font-size: 20px;
+    text-align: center;
+    background-color:  rgb(192, 161, 146);;
+  }
+
+  .exp-text::before{
+    content: "•";
+    margin-left: 25px;
+    text-align: justify;
+    margin-right: 5px;
+  }
+
+  .exp-div{
+   text-align: justify;
+  }
+
+  /* Add this CSS to your existing CSS file or create a new one */
